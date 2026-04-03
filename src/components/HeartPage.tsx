@@ -18,12 +18,13 @@ export function HeartPage({ onNext }: { onNext: () => void }) {
         <Heart size={200} fill="currentColor" />
       </motion.div>
       <motion.p
+        dir="rtl"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1 }}
-        className="text-white mt-12 text-xl font-medium animate-pulse tracking-widest uppercase"
+        className="text-white mt-12 text-xl font-medium animate-pulse tracking-widest"
       >
-        Tap my heart
+        اضغطي على قلبي
       </motion.p>
     </motion.div>
   );

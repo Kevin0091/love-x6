@@ -1,17 +1,17 @@
 import { motion } from 'motion/react';
 
 export function MessagePage({ onNext }: { onNext: () => void }) {
-  const message = `My dearest,
+  const message = `عزيزتي نور،
 
-From the moment you walked into my life, everything changed. The colors seem brighter, the days feel warmer, and my heart beats a little faster just thinking about you.
+منذ اللحظة التي دخلتِ فيها حياتي، تغير كل شيء. أصبحت الألوان أكثر إشراقاً، والأيام أكثر دفئاً، وقلبي ينبض بشكل أسرع بمجرد التفكير فيكِ.
 
-I wanted to make something special for you, a little digital gift to remind you of how much you mean to me. You are my sunshine on a cloudy day, my safe haven, and my greatest adventure.
+أردت أن أصنع لكِ شيئاً مميزاً، هدية رقمية صغيرة لتذكركِ بمدى أهميتكِ بالنسبة لي. أنتِ شمسي في الأيام الغائمة، وملاذي الآمن، وأجمل مغامراتي.
 
-Thank you for being you. Thank you for your endless love, your beautiful smile, and the way you make me feel like the luckiest person in the world.
+شكراً لكونكِ أنتِ. شكراً لحبكِ اللامحدود، لابتسامتكِ الجميلة، وللطريقة التي تجعلينني أشعر بها وكأنني أسعد إنسان في العالم.
 
-I love you more than words can say, and I can't wait to create countless more memories with you.
+أحبكِ أكثر مما تستطيع الكلمات وصفه، ولا أطيق الانتظار لصنع ذكريات لا حصر لها معكِ.
 
-Forever yours. ❤️`;
+لكِ إلى الأبد. ❤️`;
 
   return (
     <motion.div
@@ -22,10 +22,11 @@ Forever yours. ❤️`;
     >
       <div className="bg-black/50 backdrop-blur-md p-8 rounded-3xl w-full shadow-2xl border border-pink-500/30 max-h-[60vh] overflow-y-auto custom-scrollbar mb-8">
         <motion.p
+          dir="rtl"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 2 }}
-          className="text-pink-50 text-lg leading-relaxed whitespace-pre-wrap font-serif"
+          className="text-pink-50 text-lg leading-relaxed whitespace-pre-wrap font-serif text-right"
         >
           {message}
         </motion.p>
@@ -35,7 +36,7 @@ Forever yours. ❤️`;
         onClick={onNext}
         className="px-8 py-3 bg-gradient-to-r from-pink-400 to-rose-500 text-white font-bold rounded-full shadow-lg hover:shadow-pink-500/50 hover:scale-105 transition-all"
       >
-        One more thing... 🎵
+        شيء أخير... 🎵
       </button>
     </motion.div>
   );

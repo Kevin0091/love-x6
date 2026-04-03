@@ -13,11 +13,11 @@ import { MessagePage } from './components/MessagePage';
 import { MusicPlayerPage } from './components/MusicPlayerPage';
 
 const storyPages = [
-  { image: 'https://picsum.photos/seed/meet/600/600', text: 'It all started with a simple hello...' },
-  { image: 'https://picsum.photos/seed/smile/600/600', text: 'Then came the smiles that brightened my days.' },
-  { image: 'https://picsum.photos/seed/laugh/600/600', text: 'And the laughter we shared together.' },
-  { image: 'https://picsum.photos/seed/hold/600/600', text: 'Every moment with you feels like magic.' },
-  { image: 'https://picsum.photos/seed/love/600/600', text: 'I just wanted to tell you something important...' },
+  { image: 'https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif', text: 'كل شيء بدأ بصدفة جميلة يا نور...' },
+  { image: 'https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif', text: 'ثم جاءت ابتسامتك التي أضاءت أيامي.' },
+  { image: 'https://media.giphy.com/media/VxbvpfaTTo3le/giphy.gif', text: 'والضحكات التي شاركناها معاً.' },
+  { image: 'https://media.giphy.com/media/11c7UUfNvzCRsA/giphy.gif', text: 'كل لحظة معكِ تبدو وكأنها سحر.' },
+  { image: 'https://media.giphy.com/media/Lq0h93752f6J9tijrh/giphy.gif', text: 'أردت فقط أن أخبركِ بشيء مهم جداً...' },
 ];
 
 export default function App() {

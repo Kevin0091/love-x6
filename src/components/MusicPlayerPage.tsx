@@ -4,16 +4,16 @@ import { motion } from 'motion/react';
 
 const songs = [
   {
-    title: 'Our Song',
-    artist: 'Unknown Artist',
-    cover: 'https://picsum.photos/seed/album1/400/400',
-    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'
+    title: 'Starboy (feat. Daft Punk)',
+    artist: 'The Weeknd',
+    cover: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b5/92/bb/b592bb72-52e3-e756-9b26-9f56d08f47ab/16UMGIM67864.rgb.jpg/400x400bb.jpg',
+    url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3f/a0/ba/3fa0ba5b-088d-bcf2-e4bd-355a5d505617/mzaf_3355567893400963384.plus.aac.p.m4a'
   },
   {
-    title: 'Romantic Melody',
-    artist: 'Love Band',
-    cover: 'https://picsum.photos/seed/album2/400/400',
-    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3'
+    title: 'Cinnamon Girl',
+    artist: 'Lana Del Rey',
+    cover: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c6/5f/b9/c65fb9eb-da2f-89a9-b640-2fff1fc3a660/19UMGIM61350.rgb.jpg/400x400bb.jpg',
+    url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/86/ab/c9/86abc949-717d-b99e-ccc1-2d06a10e01d6/mzaf_13331833199397738074.plus.aac.p.m4a'
   }
 ];
 
