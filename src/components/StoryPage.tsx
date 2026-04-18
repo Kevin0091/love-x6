@@ -35,7 +35,7 @@ export function StoryPage({ image, text, onNext }: StoryPageProps) {
         onClick={onNext}
         className="px-8 py-3 bg-gradient-to-r from-pink-400 to-rose-500 text-white font-bold rounded-full shadow-lg hover:shadow-pink-500/50 hover:scale-105 transition-all disabled:pointer-events-none"
       >
-        التالي 💖
+        التالي ✨
       </motion.button>
     </motion.div>
   );

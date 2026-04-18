@@ -32,7 +32,7 @@ export function IntroOverlay({ onComplete }: { onComplete: () => void }) {
         transition={{ delay: 0.5 }}
         className="text-white text-xl font-medium tracking-wide"
       >
-        أهلاً نور... أقوم بتجهيز هديتك ❤️
+        أهلاً آية... أقوم بتجهيز مفاجأة لكِ ✨
       </motion.p>
     </motion.div>
   );

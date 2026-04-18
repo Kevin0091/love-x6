@@ -13,11 +13,11 @@ import { MessagePage } from './components/MessagePage';
 import { MusicPlayerPage } from './components/MusicPlayerPage';
 
 const storyPages = [
-  { image: 'https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif', text: 'كل شيء بدأ بصدفة جميلة يا نور...' },
-  { image: 'https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif', text: 'ثم جاءت ابتسامتك التي أضاءت أيامي.' },
-  { image: 'https://media.giphy.com/media/VxbvpfaTTo3le/giphy.gif', text: 'والضحكات التي شاركناها معاً.' },
-  { image: 'https://media.giphy.com/media/11c7UUfNvzCRsA/giphy.gif', text: 'كل لحظة معكِ تبدو وكأنها سحر.' },
-  { image: 'https://media.giphy.com/media/Lq0h93752f6J9tijrh/giphy.gif', text: 'أردت فقط أن أخبركِ بشيء مهم جداً...' },
+  { image: 'https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif', text: 'مرحباً آية! أردت فقط أن أصنع لكِ شيئاً بسيطاً...' },
+  { image: 'https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif', text: 'لأعبر لكِ عن شكري على وجودك الرائع كصديقة.' },
+  { image: 'https://media.giphy.com/media/VxbvpfaTTo3le/giphy.gif', text: 'وعلى كل الأوقات الممتعة والضحكات التي شاركناها معاً.' },
+  { image: 'https://media.giphy.com/media/11c7UUfNvzCRsA/giphy.gif', text: 'أنتِ شخص مميز جداً، وروحكِ دائماً تنشر الإيجابية.' },
+  { image: 'https://media.giphy.com/media/Lq0h93752f6J9tijrh/giphy.gif', text: 'لذا، أردت أن أشارككِ شيئاً لطيفاً اليوم...' },
 ];
 
 export default function App() {

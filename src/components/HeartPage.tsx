@@ -24,7 +24,7 @@ export function HeartPage({ onNext }: { onNext: () => void }) {
         transition={{ delay: 1 }}
         className="text-white mt-12 text-xl font-medium animate-pulse tracking-widest"
       >
-        اضغطي على قلبي
+        اضغطي على القلب ✨
       </motion.p>
     </motion.div>
   );
