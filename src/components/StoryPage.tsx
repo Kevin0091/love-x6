@@ -23,7 +23,7 @@ export function StoryPage({ image, text, onNext }: StoryPageProps) {
       </div>
 
       <div className="bg-black/40 backdrop-blur-md p-6 rounded-2xl w-full min-h-[120px] shadow-xl border border-pink-500/20 flex items-center justify-center text-center mb-8">
-        <p dir="rtl" className="text-white text-lg font-medium leading-relaxed">
+        <p className="text-white text-lg font-medium leading-relaxed">
           <TypewriterText text={text} onComplete={() => setShowButton(true)} speed={60} />
         </p>
       </div>
@@ -35,7 +35,7 @@ export function StoryPage({ image, text, onNext }: StoryPageProps) {
         onClick={onNext}
         className="px-8 py-3 bg-gradient-to-r from-pink-400 to-rose-500 text-white font-bold rounded-full shadow-lg hover:shadow-pink-500/50 hover:scale-105 transition-all disabled:pointer-events-none"
       >
-        التالي ✨
+        Next ✨
       </motion.button>
     </motion.div>
   );

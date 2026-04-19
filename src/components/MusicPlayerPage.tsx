@@ -4,16 +4,16 @@ import { motion } from 'motion/react';
 
 const songs = [
   {
-    title: 'Babydoll',
-    artist: 'Dominic Fike',
-    cover: 'https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2d/37/18/2d3718e9-8620-b603-d3cc-f34ce817070d/886447290170.jpg/400x400bb.jpg',
-    url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b9/00/5c/b9005c47-45de-a5cb-e9ac-f8af66d69f33/mzaf_18175355208890397177.plus.aac.p.m4a'
+    title: 'Zombie Lady',
+    artist: 'Damiano David',
+    cover: 'https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/88/13/7688131c-724a-d488-da1a-efdf04168cfb/196873640747.jpg/400x400bb.jpg',
+    url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/38/34/5d/38345d32-89ba-7512-e4ba-318b3ccb337d/mzaf_14962012607594835336.plus.aac.p.m4a'
   },
   {
-    title: '505',
-    artist: 'Arctic Monkeys',
-    cover: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/82/90/14/829014ad-a301-62ab-bee6-f4cca4457411/mzi.hozudery.jpg/400x400bb.jpg',
-    url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/32/bc/c1/32bcc1f1-f812-e765-5b4e-340e5c9ab373/mzaf_7885353230840382876.plus.aac.p.m4a'
+    title: 'Born With a Broken Heart',
+    artist: 'Damiano David',
+    cover: 'https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b0/8e/a8/b08ea833-46f7-da17-c071-70df5d0bb3b3/196872532906.jpg/400x400bb.jpg',
+    url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5d/7c/34/5d7c34e8-5e3a-6a78-e90a-27ea79ede0ff/mzaf_10710505384661600091.plus.aac.p.m4a'
   }
 ];
 

@@ -26,13 +26,12 @@ export function IntroOverlay({ onComplete }: { onComplete: () => void }) {
         <Heart size={64} className="text-pink-500" fill="currentColor" />
       </motion.div>
       <motion.p
-        dir="rtl"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5 }}
         className="text-white text-xl font-medium tracking-wide"
       >
-        أهلاً آية... أقوم بتجهيز مفاجأة لكِ ✨
+        Happy Birthday Aiya... preparing your surprise ✨
       </motion.p>
     </motion.div>
   );

@@ -13,11 +13,11 @@ import { MessagePage } from './components/MessagePage';
 import { MusicPlayerPage } from './components/MusicPlayerPage';
 
 const storyPages = [
-  { image: 'https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif', text: 'مرحباً آية! أردت فقط أن أصنع لكِ شيئاً بسيطاً...' },
-  { image: 'https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif', text: 'لأعبر لكِ عن شكري على وجودك الرائع كصديقة.' },
-  { image: 'https://media.giphy.com/media/VxbvpfaTTo3le/giphy.gif', text: 'وعلى كل الأوقات الممتعة والضحكات التي شاركناها معاً.' },
-  { image: 'https://media.giphy.com/media/11c7UUfNvzCRsA/giphy.gif', text: 'أنتِ شخص مميز جداً، وروحكِ دائماً تنشر الإيجابية.' },
-  { image: 'https://media.giphy.com/media/Lq0h93752f6J9tijrh/giphy.gif', text: 'لذا، أردت أن أشارككِ شيئاً لطيفاً اليوم...' },
+  { image: 'https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif', text: 'Hey Aiya! I wanted to make something special for your big day...' },
+  { image: 'https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif', text: 'To celebrate the amazing person you are.' },
+  { image: 'https://media.giphy.com/media/VxbvpfaTTo3le/giphy.gif', text: "And to thank you for all the fun times and laughs we've shared." },
+  { image: 'https://media.giphy.com/media/11c7UUfNvzCRsA/giphy.gif', text: 'You have such a wonderful spirit that makes everything brighter.' },
+  { image: 'https://media.giphy.com/media/Lq0h93752f6J9tijrh/giphy.gif', text: "So, here's a little birthday surprise just for you..." },
 ];
 
 export default function App() {

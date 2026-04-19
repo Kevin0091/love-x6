@@ -1,17 +1,15 @@
 import { motion } from 'motion/react';
 
 export function MessagePage({ onNext }: { onNext: () => void }) {
-  const message = `صديقتي الرائعة آية،
+  const message = `Happy Birthday, sweet Aiya!
 
-أردت فقط أن آخذ لحظة لأشكركِ على كل شيء. في زحمة الحياة، من النادر أن نجد أشخاصاً طيبين وحقيقيين مثلكِ.
+I wanted to take a moment to wish you the absolute best on your special day. In the busyness of everyday life, it's so rare to find a friend as genuine, fun, and kind as you.
 
-صنعت هذه الصفحة البسيطة كهدية صغيرة لأقول لكِ شكراً على طاقتكِ الإيجابية، وعلى دعمكِ الدائم للصداقة، وعلى كونكِ دائماً تستمعين وتشاركين اللحظات الحلوة. أنتِ من الأشخاص الذين يجعلون الأيام العادية تبدو أفضل بكثير.
+I made this little page as a birthday gift to say thank you for your incredible positive energy, your constant support, and always being there to share the good moments. You're the kind of person who makes ordinary days feel so much brighter.
 
-أتمنى أن تبقي دائماً بهذه الروح الجميلة والمرحة. شكراً لكونكِ صديقة رائعة يُعتمد عليها.
+I hope you never lose that beautiful, fun spirit of yours. Here's to a day filled with all the joy, laughter, and cake you deserve.
 
-أتمنى لكِ يوماً سعيداً ومليئاً بكل تفاصيل الفرح التي تستحقينها.
-
-أفضل الأمنيات لكِ دائماً! ✨`;
+Have the best birthday ever! ✨`;
 
   return (
     <motion.div
@@ -22,11 +20,10 @@ export function MessagePage({ onNext }: { onNext: () => void }) {
     >
       <div className="bg-black/50 backdrop-blur-md p-8 rounded-3xl w-full shadow-2xl border border-pink-500/30 max-h-[60vh] overflow-y-auto custom-scrollbar mb-8">
         <motion.p
-          dir="rtl"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 2 }}
-          className="text-pink-50 text-lg leading-relaxed whitespace-pre-wrap font-serif text-right"
+          className="text-pink-50 text-lg leading-relaxed whitespace-pre-wrap font-serif"
         >
           {message}
         </motion.p>
@@ -36,7 +33,7 @@ export function MessagePage({ onNext }: { onNext: () => void }) {
         onClick={onNext}
         className="px-8 py-3 bg-gradient-to-r from-pink-400 to-rose-500 text-white font-bold rounded-full shadow-lg hover:shadow-pink-500/50 hover:scale-105 transition-all"
       >
-        مفاجأة أخيرة... 🎵
+        One last surprise... 🎵
       </button>
     </motion.div>
   );
